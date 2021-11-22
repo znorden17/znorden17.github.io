@@ -4,7 +4,7 @@
     box-sizing: border-box;
    }
    body {
-    font-family: 'Courier New', Courier, monospace
+    font-family: 'Roboto', sans-serif;
     
    }
    
@@ -25,37 +25,108 @@ h1 {
   text-align:center;
   font-family: 'Roboto', sans-serif;
   letter-spacing: 3px;
-  border-bottom: 1px solid #f28d20;
+  font-size: 60px;
+}
+
+h2 {
+color:#e6e6e8;
+font-family: 'Roboto',sans-serif;
+font-size: 25px;
+border-bottom: 3px solid #f28d20;
 
 }
 
-.header2{
-  text-align:center;
-  position:absolute;
-  width:100%;
-  background-color:#293148;
-  height:auto;
-  margin-top:200px;
+h5 {
+  color:#e6e6e8;
+  font-family: 'Roboto',sans-serif;
+  font-size: 30px;
+  }
 
+h3 {
+  color: #e6e6e8;
+  text-align:left;
+  font-family: 'Roboto', sans-serif;
+  letter-spacing: 3px;
+  font-size: 60px;
+  border-bottom: 3px solid #f28d20;
+  margin-left: 10%;
 }
 
-.header{
-  
-  margin-top: 8%;
-  margin-left: 15%;
-  margin-right:15%;
-  padding: 80px 80px;
-  background-color:#293148;
-}
+h4 {
+  color:#e6e6e8;
+  font-family: 'Roboto',sans-serif;
+  font-size: 24px;
+  text-align: left;
+  padding-left: 10px;
 
+  }
 .img-container{
-  background-image: url("bridgers.jpg");
-  height:70%;
+  background-image: url("../images/bridgers.jpg");
+  min-height:20vh;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  position:relative;
+  padding: 60px;
 }
+
+
+.header{
+  text-align:center;
+  width:100%;
+  background-color: #1e2538;
+  height:auto;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+
+.box{
+  text-align:center;
+  width:100%;
+  background-color:#293148;
+
+}
+
+.wrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  grid-auto-rows: minmax(100px, auto);
+}
+.references {
+  grid-column: 1 / 3;
+  grid-row: 1;
+  
+}
+
+.random_info {
+  grid-column: 3 / 3;
+  grid-row: 1 / 3;
+ 
+
+}
+.cummings {
+  grid-column: 1;
+  grid-row: 2 ;
+
+}
+.paxton {
+  grid-column: 2/3;
+  grid-row: 2;
+
+}
+
+.four {
+  grid-column: 2/3;
+  grid-row: 3;
+
+}
+
+.six {
+  grid-column: 0/3;
+  grid-row: 3;
+}
+
 
 
    /* 
@@ -67,7 +138,7 @@ NAV BAR STUFF
     align-items: center;
     justify-content: space-between;
     padding: 20px;
-    background-color: #293148;
+    background-color: #1a2031;
 
    }
    .menu {

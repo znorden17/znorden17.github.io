@@ -1,0 +1,61 @@
+
+creates a banner with a image in the back and a banner thing in the front.
+
+<div class="img-container">
+        <div class="header">
+            <h1>ZOE NORDEN</h1>
+            <br>
+            <br>
+            <h2>[insert a tag here]</h2>
+        </div>
+
+    </div>
+
+.img-container{
+  background-image: url("../images/bridgers.jpg");
+  min-height:20vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 60px;
+}
+
+
+.header{
+  text-align:center;
+  width:100%;
+  background-color:#293148;
+  height:auto;
+  padding-top: 80px;
+  padding-bottom: 80px;
+
+
+}
+
+
+initial thought for grid?????
+
+   <div class="row">
+        <div class="column">
+            <div class="header" style="width:60%">
+                <h3 style="width:30%"> REFERENCES </h3>
+            </div>
+ <div class="cummings">
+<div class="box">
+                <h2 style="padding-top: 5%; width:65%; margin-left: 5%; text-align: left;">MARY ANN CUMMINGS</h2>
+                <br>
+                <h4 style="padding-top:5%; padding-bottom:5%; padding-left:5%"> Email: mary.cummings1@montana.edu
+                    <br><br><br>
+                    Phone number: (406) 994 3547
+                </h4>
+            </div>
+</div>
+        <div class="four">
+            <div class="box">
+                <h2 style="padding-top: 5%; width:65%; margin-left: 5%; text-align: left;"> JOHN PAXTON </h2>
+                <br>
+                <h4 style="padding-top:5%; padding-bottom:5%; padding-left:5%"> Email: john.paxton@msu.montana.edu
+                    <br><br><br><br>
+                </h4>
+            </div>
+        </div>
