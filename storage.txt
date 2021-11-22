@@ -33,29 +33,3 @@ creates a banner with a image in the back and a banner thing in the front.
 }
 
 
-initial thought for grid?????
-
-   <div class="row">
-        <div class="column">
-            <div class="header" style="width:60%">
-                <h3 style="width:30%"> REFERENCES </h3>
-            </div>
- <div class="cummings">
-<div class="box">
-                <h2 style="padding-top: 5%; width:65%; margin-left: 5%; text-align: left;">MARY ANN CUMMINGS</h2>
-                <br>
-                <h4 style="padding-top:5%; padding-bottom:5%; padding-left:5%"> Email: mary.cummings1@montana.edu
-                    <br><br><br>
-                    Phone number: (406) 994 3547
-                </h4>
-            </div>
-</div>
-        <div class="four">
-            <div class="box">
-                <h2 style="padding-top: 5%; width:65%; margin-left: 5%; text-align: left;"> JOHN PAXTON </h2>
-                <br>
-                <h4 style="padding-top:5%; padding-bottom:5%; padding-left:5%"> Email: john.paxton@msu.montana.edu
-                    <br><br><br><br>
-                </h4>
-            </div>
-        </div>

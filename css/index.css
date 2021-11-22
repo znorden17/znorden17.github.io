@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   }
+   body {
+    font-family: 'Roboto', sans-serif;
+    
+   }
+   
+   a {
+    text-decoration: none;
+    color: #e6e6e8; /*font color*/
+    font-family: 'Roboto', sans-serif;
+    letter-spacing:3px
+
+   }
+
+   li {
+    list-style: none;
+   }
+
+h1 {
+  color: #e6e6e8;
+  text-align:center;
+  font-family: 'Roboto', sans-serif;
+  letter-spacing: 3px;
+  font-size: 60px;
+}
+
+h2 {
+color:#e6e6e8;
+font-family: 'Roboto',sans-serif;
+font-size: 32px;
+border-bottom: 3px solid #f28d20;
+
+}
+
+
+h3 {
+  color: #e6e6e8;
+  text-align:left;
+  font-family: 'Roboto', sans-serif;
+  letter-spacing: 3px;
+  font-size: 60px;
+  border-bottom: 3px solid #f28d20;
+  margin-left: 10%;
+}
+
+h4 {
+  color:#e6e6e8;
+  font-family: 'Roboto',sans-serif;
+  font-size: 20px;
+  text-align: left;
+  padding-left: 10px;
+
+  }
+
+
+.img-container{
+  background-image: url("../images/bridgers.jpg");
+  min-height:20vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 60px;
+}
+
+
+.header{
+  text-align:center;
+  width:100%;
+  background-color: #1e2538;
+  height:auto;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+
+.box{
+  text-align:center;
+  width:100%;
+  background-color:#293148;
+
+}
+
+
+
+   /* 
+NAV BAR STUFF 
+   */
+
+   .navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #1a2031;
+
+   }
+   .menu {
+    display: flex;
+    gap: 1em;
+    font-size: 18px;
+   }
+
+   .menu li {
+    padding: 5px 14px;
+   }
+
+   .menu li:hover { /* hover over and changes color */
+    border-bottom: 3px solid #f28d20;
+    border-radius: 5px;
+    transition: 0.3s ease;
+   }
+
+
+  .menu li.active{
+    border-bottom: 3px solid #f28d20;
+    border-radius: 5px;
+
+  }
+
