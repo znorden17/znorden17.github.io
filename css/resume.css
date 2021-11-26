@@ -16,7 +16,7 @@
     text-decoration: none;
     color: #e6e6e8; /*font color*/
     font-family: 'Roboto', sans-serif;
-    letter-spacing:3px
+    letter-spacing:3px;
 
    }
 
@@ -41,6 +41,7 @@
     color:#e6e6e8;
     font-family: 'Roboto',sans-serif;
     font-size: 30px;
+    text-align:left;
     
     }
 
@@ -101,6 +102,7 @@ h5{
 }
 
 
+
 .header{
   text-align:center;
   width:100%;
@@ -120,8 +122,21 @@ h5{
   margin-top:2vh;
 }
 
+/*
+LINK TO THE GITHUB BUTTON
+*/
+.btn-primary {
+  color: #e6e6e8;
+  background-color: #293148;
+  border-color: #f28d20; 
 
 
+}
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open>.dropdown-toggle.btn-primary {
+  color: #e6e6e8;
+  background-color: #f28d20;
+  border-color: #293148; 
+}
 
 
    /* 
