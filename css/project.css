@@ -12,7 +12,7 @@
     text-decoration: none;
     color: #e6e6e8; /*font color*/
     font-family: 'Roboto', sans-serif;
-    letter-spacing:3px
+    letter-spacing:-3px;
 
    }
 
