@@ -1,123 +1,43 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-   }
-   body {
-    font-family: 'Roboto', sans-serif;
-    
-   }
-   
-   a {
-    text-decoration: none;
-    color: #e6e6e8; /*font color*/
-    font-family: 'Roboto', sans-serif;
-    letter-spacing:3px
-
-   }
-
-   li {
-    list-style: none;
-   }
-
-h1 {
-  color: #e6e6e8;
-  text-align:center;
-  font-family: 'Roboto', sans-serif;
-  letter-spacing: 3px;
-  font-size: 60px;
+.bg-info {
+  background-color: #1a2031 !important;
 }
 
-h2 {
-color:#e6e6e8;
-font-family: 'Roboto',sans-serif;
-font-size: 32px;
-border-bottom: 3px solid #f28d20;
-
+.border-info {
+  border-color: #f28d20 !important;
 }
 
-
-h3 {
-  color: #e6e6e8;
-  text-align:left;
-  font-family: 'Roboto', sans-serif;
-  letter-spacing: 3px;
-  font-size: 60px;
-  border-bottom: 3px solid #f28d20;
-  margin-left: 10%;
+.module {
+  min-height: 33vh;
 }
 
-h4 {
-  color:#e6e6e8;
-  font-family: 'Roboto',sans-serif;
-  font-size: 20px;
-  text-align: left;
-  padding-left: 10px;
-
-  }
-
-
-.img-container{
-  background-image: url("../images/bridgers.jpg");
-  min-height:20vh;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  padding: 60px;
+.img-fluid {
+  object-fit: none;
+  height: 100%;
 }
 
-
-.header{
-  text-align:center;
-  width:100%;
-  background-color: #1e2538;
-  height:auto;
-  padding-top: 80px;
-  padding-bottom: 80px;
+#lineDrawing {
+  width: 100%;
+  min-height: 66vh;
 }
 
-
-.box{
-  text-align:center;
-  width:100%;
-  background-color:#293148;
-
+.btn-outline-light,
+.btn-outline-light:active,
+.btn-outline-light:visited,
+.btn-outline-light:focus {
+    border-color: #f28d20;
 }
 
+.btn-outline-light:hover{
+  background-color:#f28d20;
+  border-color:#f28d20;
+  color:#1a2031;
+}
 
+.nav-link:active,
+.nav-link:hover{
+  color: #f28d20 !important;
+}
 
-   /* 
-NAV BAR STUFF 
-   */
-
-   .navbar {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 20px;
-    background-color: #1a2031;
-
-   }
-   .menu {
-    display: flex;
-    gap: 1em;
-    font-size: 18px;
-   }
-
-   .menu li {
-    padding: 5px 14px;
-   }
-
-   .menu li:hover { /* hover over and changes color */
-    border-bottom: 3px solid #f28d20;
-    border-radius: 5px;
-    transition: 0.3s ease;
-   }
-
-
-  .menu li.active{
-    border-bottom: 3px solid #f28d20;
-    border-radius: 5px;
-
-  }
-
+.nav-link{
+  color:#e6e6e8 !important;
+}
