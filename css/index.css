@@ -24,13 +24,10 @@
   width: 650px;
   margin: 0 auto;
   position: relative;
-  margin-right:40%;
 }
 
 #textbox {
   margin-top:100px;
-  margin-left:400px;
-
   background-color: lightgrey;
   position: absolute;
   width: 350px;
