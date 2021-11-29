@@ -3,7 +3,7 @@ function main() {
         targets: '#lineDrawing .lines path',
         strokeDashoffset: [anime.setDashoffset, 0],
         easing: 'easeInOutSine',
-        duration: 750,
+        duration: 3000,
         delay: function (el, i) { return i * 250 },
         direction: 'alternate',
         complete: function (anim) {
