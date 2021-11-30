@@ -14,7 +14,7 @@
 <body>
     <nav class="navbar navbar-expand-lg navbar-dark bg-info">
         <div class="container-fluid" id="navcontent" style="opacity:0;">
-            <a class="navbar-brand" href="https://github.com/znorden17"><i class="fa fa-fw fa-github"></i></a>
+            <a class="navbar-brand" href="#"><i class="fa fa-fw fa-github"></i></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -43,9 +43,10 @@
         <div id="lineDrawing" class="d-flex align-items-center justify-content-center vw-50">
             <svg version="1.0" xmlns="http://www.w3.org/2000/svg" width="338.000000pt" height="338.000000pt"
                 viewBox="0 0 338.000000 338.000000" preserveAspectRatio="xMidYMid meet">
+
                 <g class="lines" transform="translate(0.000000,338.000000) scale(0.100000,-0.100000)" fill="none"
-                    stroke="#f28d20" stroke-width="6">
-                    <path d="M1582 2878 c-27 -30 -36 -71 -24 -107 l10 -30 -71 -21 c-302 -92
+                    stroke="#f28d20" stroke-width="20">
+                    <path class="outer" d="M1582 2878 c-27 -30 -36 -71 -24 -107 l10 -30 -71 -21 c-302 -92
 -520 -335 -573 -641 -19 -110 -15 -201 16 -337 11 -50 20 -123 20 -161 0 -189
 -86 -412 -188 -489 -20 -15 -49 -40 -65 -55 -37 -35 -33 -59 24 -176 76 -155
 229 -286 404 -348 l80 -28 669 -3 c667 -3 668 -3 713 19 134 65 132 269 -3
@@ -97,9 +98,11 @@ m359 -106 c8 -13 17 -36 20 -53 l6 -30 -12 26 c-31 63 -55 71 -141 45 -26 -8
 22 25 25 80 23 l60 -2 -6 38 c-4 25 -1 48 10 69 18 35 28 40 79 41 30 1 45 -6
 69 -29z m918 -37 c15 -20 20 -39 18 -68 l-2 -40 42 3 c119 9 126 -156 9 -212
 -26 -12 -64 -16 -147 -16 -109 0 -112 1 -140 28 -51 51 -63 161 -24 220 18 27
-43 28 77 2 38 -30 47 -25 47 25 0 81 74 116 120 58z M2350 2063 c-72 -27 -88 -146 -29 -209 30 -32 82 -32 113 -1 75 75 7
+43 28 77 2 38 -30 47 -25 47 25 0 81 74 116 120 58z" />
+                    <path class="inner" d="M2350 2063 c-72 -27 -88 -146 -29 -209 30 -32 82 -32 113 -1 75 75 7
 243 -84 210z m28 -89 c3 -23 -21 -49 -38 -39 -11 7 -14 48 -3 59 13 13 38 1
-41 -20z M1750 2011 c0 -5 21 -17 48 -26 26 -8 55 -22 65 -29 15 -12 13 -15
+41 -20z" />
+                    <path class="inner" d="M1750 2011 c0 -5 21 -17 48 -26 26 -8 55 -22 65 -29 15 -12 13 -15
 -27 -30 -45 -17 -80 -46 -57 -46 7 0 32 5 55 11 28 7 55 7 77 1 42 -11 59 -6
 59 18 0 25 -72 87 -117 99 -47 13 -103 14 -103 2z" />
 
@@ -107,6 +110,12 @@ m359 -106 c8 -13 17 -36 20 -53 l6 -30 -12 26 c-31 63 -55 71 -141 45 -26 -8
             </svg>
         </div>
     </div>
+
+
+
+
+
+
 
     <div class="container-fluid bg-info" id="content" style="display:none;">
         <div class="container-fluid bg-info vh-100">
@@ -134,49 +143,69 @@ m359 -106 c8 -13 17 -36 20 -53 l6 -30 -12 26 c-31 63 -55 71 -141 45 -26 -8
         </div>
         <div class="container-fluid bg-info module pb-5">
             <div class="row pb-5">
-                <div id="wrapper" style="margin-left:35vw">
-                    <img src="images/food1.jpeg">
-                    <div id="textbox" style="margin-left:25vw;">
-                        <div id="content">
-                            <h2>Project 1</h2>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                                incididunt
-                                ut labore et dolore
+                <div class="col-md">
 
-                            </p>
+                    <section>
 
-                            <button type="button" class="btn btn-outline-light" href="#">Learn More</button>
+                        <div class="left"></div>
+                        <div class="right">
+                            <div class="content">
+                                <h1>Project 1</h1>
+                                <p>info about project 1
+                                </p>
+                                <button type="button" class="btn btn-outline-light" href="#">View More</button>
+                            </div>
+                        </div>
+                </div>
+                </section>
+
+            </div>
+            <div class="row pb-5">
+                <div class="col-md">
+                    <section>
+                        <div class="right2"></div>
+                        <div class="left2">
+                            <div class="content">
+                                <h1>Project 1</h1>
+                                <p>info about project 1</p>
+                                <button type="button" class="btn btn-outline-light" href="#">View More</button>
+
+                            </div>
+                        </div>
+
+
+
+
+                </div>
+                </section>
+
+            </div>
+        </div>
+
+        <!--
+            <div class="row pb-5">
+                <div class="col-md">
+
+                    <div id="wrapper2" style="z-index:3;">
+                        <img src="images/food1.jpeg">
+                        <div id="textbox" style="z-index:3;">
+                            <div id="content">
+                                <h2>Project 2</h2>
+                                <p>filler text
+
+                                </p>
+
+                                <button type="button" class="btn btn-outline-light" href="#">Learn More</button>
+                            </div>
                         </div>
                     </div>
+
                 </div>
-            </div>
-        </div>
-
-        <div class="row pb-5">
-            <div id="wrapper" style="margin-right:45vw" ;>
-                <img src="images/food1.jpeg">
-                <div id="textbox" style="margin-left:-10vw;">
-                    <div id="content">
-                        <h2>Project 1</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
-                            ut labore et dolore
-
-                        </p>
-
-                        <button type="button" class="btn btn-outline-light" href="#">Learn More</button>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-
-    </div>
-
-
+            </div>-->
 
     </div>
     </div>
+
 </body>
 
 </html>

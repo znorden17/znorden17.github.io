@@ -1,10 +1,9 @@
 function main() {
     var lineDrawing = anime({
-        targets: '#lineDrawing .lines path',
+        targets: '#lineDrawing .lines .outer',
         strokeDashoffset: [anime.setDashoffset, 0],
         easing: 'easeInOutSine',
-        duration: 100, // [CHANGE THIS TO 2500ISH]
-        delay: function (el, i) { return i * 250 },
+        duration: 100,
         direction: 'alternate',
         complete: function (anim) {
             document.getElementById("welcome").style.display = "none";
@@ -12,6 +11,14 @@ function main() {
             unfade(document.getElementById("home"));
             unfade(document.getElementById("navcontent"));
         }
+    });
+    var lineDrawing2 = anime({
+        targets: '#lineDrawing .lines .inner',
+        strokeDashoffset: [anime.setDashoffset, 0],
+        easing: 'easeInOutSine',
+        duration: 1500,
+        delay: function (el, i) { return 400 },
+        direction: 'normal'
     });
 }
 
