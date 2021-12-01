@@ -66,13 +66,22 @@ section {
   padding: 30px;
   border-radius: 8px;
   color: white;
-  margin-left: -150px;
+  margin-left: -10vw;
 }
 .right h1 {
   font-size: 40px;
   font-weight: lighter;
 }
 .right p {
+  margin: 20px 0;
+  font-weight: 500;
+  line-height: 25px;
+}
+.left2 h1 {
+  font-size: 40px;
+  font-weight: lighter;
+}
+.left2 p {
   margin: 20px 0;
   font-weight: 500;
   line-height: 25px;
@@ -89,6 +98,8 @@ section {
   padding: 30px;
   border-radius: 8px;
   color: white;
+  margin-right: -10vw;
+  z-index: 2;
 }
 
 .right2{
@@ -97,16 +108,9 @@ section {
   background: url(../images/food1.jpeg)
     no-repeat center / cover;
   border-radius: 8px;
+  z-index: 0;
 
 }
-
-
-
-
-
-
-
-
 
 .btn-outline-light,
 .btn-outline-light:active,
