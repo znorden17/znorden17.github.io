@@ -1,9 +1,9 @@
 body{
-  background-color: #172a45;
+  background-color: #110f16;
 }
 
 .bg-info {
-  background-color: #172a45 !important;
+  background-color: #110f16 !important;
 }
 
 .border-info {
@@ -48,69 +48,7 @@ section {
   justify-content: center;
   /* background-color: aqua; */
 }
-.left {
-  width: 50%;
-  height: 600px;
-  background: url(../images/food1.jpeg)
-    no-repeat center / cover;
-  border-radius: 8px;
-}
-.right {
-  width: 50%;
-  min-height: 400px;
-  background-color: #172a45;
-  display: flex;
-  border: 2px solid #fe7734;
-  align-items: center;
-  justify-content: center;
-  padding: 30px;
-  border-radius: 8px;
-  color: white;
-  margin-left: -10vw;
-}
-.right h1 {
-  font-size: 40px;
-  font-weight: lighter;
-}
-.right p {
-  margin: 20px 0;
-  font-weight: 500;
-  line-height: 25px;
-}
-.left2 h1 {
-  font-size: 40px;
-  font-weight: lighter;
-}
-.left2 p {
-  margin: 20px 0;
-  font-weight: 500;
-  line-height: 25px;
-}
 
-.left2{
-  width: 50%;
-  min-height: 400px;
-  background-color: #172a45;
-  border: 2px solid #fe7734;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding: 30px;
-  border-radius: 8px;
-  color: white;
-  margin-right: -10vw;
-  z-index: 2;
-}
-
-.right2{
-  width: 50%;
-  height: 600px;
-  background: url(../images/food1.jpeg)
-    no-repeat center / cover;
-  border-radius: 8px;
-  z-index: 0;
-
-}
 
 .btn-outline-light,
 .btn-outline-light:active,
@@ -122,7 +60,7 @@ section {
 .btn-outline-light:hover{
   background-color:#f28d20;
   border-color:#f28d20;
-  color:#172a45;
+  color:#110f16;
 }
 
 .nav-link:active,

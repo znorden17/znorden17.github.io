@@ -1,0 +1,102 @@
+<div class="container-fluid bg-info module pb-5">
+    <div class="row pb-5">
+        <div class="col-md">
+
+            <section>
+
+                <div class="left"></div>
+                <div class="right">
+                    <div class="content">
+                        <h1>Project 1</h1>
+                        <p>info about project 1
+                        </p>
+                        <button type="button" class="btn btn-outline-light" href="#">View More</button>
+                    </div>
+                </div>
+        </div>
+        </section>
+
+    </div>
+    <div class="row pb-5">
+        <div class="col-md">
+            <section>
+                <div class="left2">
+                    <div class="content">
+                        <h1>Project 1</h1>
+                        <p>info about project 1</p>
+                        <button type="button" class="btn btn-outline-light" href="#">View More</button>
+                    </div>
+                </div>
+                <div class="right2"></div>
+        </div>
+        </section>
+
+    </div>
+</div>
+
+</div>
+
+
+.left {
+width: 50%;
+height: 600px;
+background: url(../images/food1.jpeg)
+no-repeat center / cover;
+border-radius: 8px;
+}
+.right {
+width: 50%;
+min-height: 400px;
+background-color:#110f16;
+display: flex;
+border: 2px solid #fe7734;
+align-items: center;
+justify-content: center;
+padding: 30px;
+border-radius: 8px;
+color: white;
+margin-left: -10vw;
+}
+.right h1 {
+font-size: 40px;
+font-weight: lighter;
+}
+.right p {
+margin: 20px 0;
+font-weight: 500;
+line-height: 25px;
+}
+.left2 h1 {
+font-size: 40px;
+font-weight: lighter;
+}
+.left2 p {
+margin: 20px 0;
+font-weight: 500;
+line-height: 25px;
+}
+
+.left2{
+width: 50%;
+min-height: 400px;
+background-color: #110f16;
+border: 2px solid #fe7734;
+display: flex;
+align-items: center;
+justify-content: center;
+padding: 30px;
+border-radius: 8px;
+color: white;
+margin-right: -10vw;
+z-index: 2;
+}
+
+.right2{
+width: 50%;
+height: 600px;
+background: url(../images/food1.jpeg)
+no-repeat center / cover;
+border-radius: 8px;
+z-index: 0;
+
+}
