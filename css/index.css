@@ -1,13 +1,3 @@
-body{
-    background-color: #49495a;
-}
-
-
-.nav-link:active,
-.nav-link:hover{
-  color: #f28d20 !important;
-}
-
-.nav-link{
-  color:#e6e6e8 !important;
+body {
+  background-color: #49495a;
 }
