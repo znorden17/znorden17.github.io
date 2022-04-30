@@ -5,25 +5,28 @@ NAVBAR
 
 */
 
-a{
-    color: #efefef;
+a {
     text-decoration: none;
+    color: #efefef;
+    padding: 0 .5% 0 .5%;
+    font-size: 1.5em;
 }
 
 /* 
 resume button
 */
-#resume_button{
+
+
+#resume_button {
     background-color: #12510d;
-    color:#efefef;
+    color: #efefef;
     padding: .5% .5% .5% .5%;
     text-decoration: none;
-
 }
 
-#resume_button:hover{
+#resume_button:hover {
     background-color: #93fd70;
     color: #0b0b0d;
 }
 
-
+/*                <img src="images/blobs/resume_button.svg" alt="resume_blob">*/
