@@ -4,3 +4,11 @@ body {
   color: #efefef;
 
 }
+
+
+h2.section-title{
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  font-size: 48px;
+}

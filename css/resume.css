@@ -1,0 +1,32 @@
+section.resume{
+
+    background-color: green;
+    color: #efefef;
+    text-transform: uppercase;
+
+    }
+    
+        
+
+#languages{
+    display: inline-block;
+}
+    
+section.resume h3{
+font-size: 40px;
+padding-left:20px;
+
+
+}
+
+section.resume h4{
+    font-size: 30px;
+    padding-left:40px;
+
+}
+
+section.resume h5{
+    font-size: 24px;
+    padding-left:60px;
+
+}

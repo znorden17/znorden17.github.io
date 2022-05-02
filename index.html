@@ -8,8 +8,13 @@
     <link href="css/index.css" rel="stylesheet">
     <link href="css/navbar.css" rel="stylesheet">
     <link href="css/intro.css" rel="stylesheet">
-
+    <link href="css/projects.css" rel="stylesheet">
+    <link href="css/resume.css" rel="stylesheet">
+    <link href="css/footer.css" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet"> 
 </head>
 
 <body>
@@ -17,7 +22,7 @@
     <header>
         <nav>
             <div class="gh">
-                <a href="https://github.com/znorden17"><i class="fa a-fw fa-github"></i></a>
+                <a class ="top_bar" href="https://github.com/znorden17"><i class="fa a-fw fa-github"></i></a>
                 <span></span>
                 <span></span>
                 <span></span>
@@ -25,36 +30,29 @@
             </div>
 
             <div class="inabprwo">
-                <a href="#landing">Home</a>
+                <a class ="top_bar" href="#landing">Home</a>
                 <span></span>
                 <span></span>
                 <span></span>
                 <span></span>
             </div>
             <div class="inabprwo">
-                <a href="#about">About</a>
+                <a class ="top_bar" href="#proj">Projects</a>
                 <span></span>
                 <span></span>
                 <span></span>
                 <span></span>
             </div>
             <div class="inabprwo">
-                <a href="#proj">Projects</a>
-                <span></span>
-                <span></span>
-                <span></span>
-                <span></span>
-            </div>
-            <div class="inabprwo">
-                <a href="#work">Experience</a>
+                <a class ="top_bar" href="#work">Experience</a>
                 <span></span>
                 <span></span>
                 <span></span>
                 <span></span>
             </div>
 
-            <div class="top_bar">
-                <a
+            <div class="top_button">
+                <a class ="top_bar"
                     href="https://github.com/znorden17/znorden17.github.io/blob/e4afc4fb245e620ac7642953230aa4e3eb2b54bf/docs/Norden_v4.pdf">
                     <span></span>
                     <span></span>
@@ -66,80 +64,108 @@
         </nav>
     </header>
 
-
-
     <main>
-        <section class="intro" id="landing">
-            a
+        <section class="intro" id="landing">         
             <h2 class="section-title">
-                Hello there
+                Zoe Norden
             </h2>
-        </section>
 
+            <div class="intro_row">
 
-        <section class="about-me" id="about">
-            <header class="about-us__intro">
-                <h2 class="section-title">Add more text</h2>
-            </header>
-
-            <div class="about-us__body">
-                <p></p>
-                <p></p>
+                <div class="intro_column">
+                    <p>
+                        Hello there! 
+                        
+                        I'm an aspiring software engineer based out of Bozeman, MT. 
+                        I'm not quite sure what field I want to go into but I'm presently interested in cyber security and front-end development.
+                        I'm an avid traveler (or at least, I aspire to be) and when I'm not crying (read: suffering)
+                        over memory errors in C or random HTML bugs, I can be found learning and experimenting 
+                        with new CSS things. Right now, I'm trying to turn this personal website into my dream website. 
+                        Which, uh, might be slightly difficult since I only have vague ideas and hand gestures. 
+                        <br><br>
+                
+                        Have another button that I spent a painstaking amount of time trying to figure out.
+                        <br>(Except, I guess, I'm just going to copy + paste what I did early.)
+                    </p> 
+            <div class="resume_v2">
+                <a class ="resumev2"
+                    href="https://github.com/znorden17/znorden17.github.io/blob/e4afc4fb245e620ac7642953230aa4e3eb2b54bf/docs/Norden_v4.pdf">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    Resume
+                </a>
             </div>
+                    </div>
+
+                    <div class="intro_column">
+                        <p>[do try to remember to add an image at some point before we die of old age]</p>
+                    </div>
+            </div>
+
+
+
+            
         </section>
+
 
         <section class="projects" id="proj">
-            <header>
-                <h2 class="section-title"></h2>
+            <header class="projects__intro">
+                <h2 class="section-title">Projects</h2>
             </header>
-            <p></p>
-            <div class="btn-group">
-                <a href="#" class="btn btn-primary"></a>
-                <a href="#" class="btn btn-primary"></a>
-                <a href="#" class="btn btn-primary"></a>
+
+            <div class="portfolio_website">
+                <h3>
+                    Portfolio Website
+                </h3>
+
+                <h4> Motivation </h4>
+                <h4> Languages</h4>
+                <h4>What I Learned</h4>
+            </div>
+
+            <div class="Graduating Capstone Project">
+                <h3> Graduating Capstone Project</h3>
+                <h4> Motivation </h4>
+                <h4> Languages</h4>
+                <h4>What I Learned</h4>
             </div>
         </section>
 
         <section class="resume" id="work">
 
             <header>
-                <h2 class="section-title"></h2>
+                <h2 class="section-title">
+                    Work Experience & Education
+                </h2>
             </header>
             <div class="resume">
                 <div class="resume">
-                    <h3></h3>
+                    <h3>Jobs</h3>
                     <img src="" alt="" class="resume__img">
-                    <p></p>
-                    <p></p>
+                    <h4>Undergraduate Course Assistant</h4>
+                    <h4>Solutions Developer</h4>
                 </div>
                 <div class="resume">
-                    <h3></h3>
+                    <h3>Internships</h3>
                     <img src="" alt="" class="resume__img">
-                    <p></p>
-                    <p></p>
+
+                    <h4>IT Intern</h4>
+                    <h4>Cyber Security Intern</h4>
+                    
                 </div>
                 <div class="resume">
-                    <h3></h3>
+                    <h3>Education</h3>
                     <img src="" alt="" class="resume__img">
-                    <p></p>
-                    <p></p>
+                    <h4>Bachelor's Degree</h4>
                 </div>
             </div>
         </section>
 
-        <div class="btn-group">
-            <a href="" class="btn btn-accent"></a>
-        </div>
-
-        <div class="btn-group">
-            <a href="#" class="btn btn-primary"></a>
-            <a href="#" class="btn btn-primary"></a>
-            <a href="#" class="btn btn-primary"></a>
-        </div>
         <footer>
             <a href="https://github.com/znorden17"><i class="fa fa-fw fa-github"></i></a>
             <a href="#intro">Home</a>
-            <a href="#about">About</a>
             <a href="#proj">Projects</a>
             <a href="#work">Experience</a>
             <a
