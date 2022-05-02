@@ -14,8 +14,7 @@ nav {
 }
 
 a.top_bar,
-.gh,
-.inabprwo, .top_button {
+.inabprwo, .top_button{
     position: relative;
     display: inline-block;
     padding: 10px 20px 10px 20px;
@@ -30,20 +29,32 @@ a.top_bar,
 /*
 *******
 
-GITHUB LOGO
+GITHUB LOGO \ LINKED IN LOGO
 
 *******
 */
 
 .gh {
-    padding-left: 20px;
+    position: relative;
+    display: inline-block;
+    float: right;
+    padding: 10px 0px 10px 0px;
+    color: #fff;
+
+}
+.ln{
+    position: relative;
+    float: inline-end;
+    display: inline-block;
+    padding: 10px 0px 10px 0px;
+    color: #fff;
 
 }
 
 /*
 if i wanted to directly "edit" the gh logo
 .fa-github{}
-*/
+
 
 
 .gh span {
@@ -51,8 +62,22 @@ if i wanted to directly "edit" the gh logo
     display: block;
     background: radial-gradient(#18c729, #fef500);
     transition: transform ease-in-out 0.2s;
-    margin-bottom: 10px
 }
+.gh span:nth-child(1) {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 1px;
+    transform: scaleX(0);
+    transform-origin: right;
+    transition-delay: 0s;
+}
+
+.gh:hover span:nth-child(1) {
+    transform: scaleX(1);
+    transform-origin: left;
+}
+
 
 
 .gh span:nth-child(3) {
@@ -69,7 +94,22 @@ if i wanted to directly "edit" the gh logo
     transform: scaleX(1);
     transform-origin: left;
 }
+.gh span:nth-child(2) {
+    top: 0;
+    right: 0;
+    width: 1px;
+    height: 100%;
+    transform: scaleY(0);
+    transform-origin: bottom;
+    transition-delay: .3s;
 
+}
+
+.gh:hover span:nth-child(2) {
+    transform: scaleX(1);
+    transform-origin: top;
+}
+*/
 /*
 
 *********
