@@ -10,20 +10,20 @@ section.projects {
     
     
 section.projects h3{
-font-size: 40px;
+font-size: 4.0rem;
 padding-left:20px;
 
 
 }
 
 section.projects h4{
-    font-size: 30px;
-    padding-left:40px;
+    font-size: 3.0rem;
+    padding-left:4.0rem;
 
 }
 
 section.projects h5{
-    font-size: 24px;
-    padding-left:60px;
+    font-size: 2.4rem;
+    padding-left:6.0rem;
 
 }
