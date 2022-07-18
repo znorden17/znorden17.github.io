@@ -1,0 +1,14 @@
+:root{
+    --primary_red: #AA0707;
+    --secondary_red: #E00A24;
+    --secondary_purple: #4F0832;
+    --primary_purple: #28A033;
+    --background_purple: #07041E;
+    --primary-text: #fff;
+}
+
+
+body{
+
+    background-color: var(--background_purple);
+}
