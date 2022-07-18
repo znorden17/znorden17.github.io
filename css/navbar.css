@@ -22,7 +22,7 @@ a.top_bar,
     text-transform: uppercase;
     letter-spacing: .04rem;
     text-decoration: none;
-    font-size: .24rem;
+    font-size: 2.4rem;
 }
 
 
@@ -38,7 +38,7 @@ GITHUB LOGO \ LINKED IN LOGO
     position: relative;
     display: inline-block;
     float: right;
-    padding: .1rem 0rem .1rem 0rem;
+    padding: 1.0rem 0rem 1.0rem 0rem;
     color: #fff;
 
 }
@@ -46,7 +46,7 @@ GITHUB LOGO \ LINKED IN LOGO
     position: relative;
     float: inline-end;
     display: inline-block;
-    padding: .1rem 0rem .1rem 0rem;
+    padding: 1.0rem 0rem 1.0rem 0rem;
     color: #fff;
 
 }
@@ -115,7 +115,7 @@ if i wanted to directly "edit" the gh logo
 *********
 about, work, intro, projects...?
 
-*********
+*********q
 */
 
 .inabprwo span {
