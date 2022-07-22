@@ -2,13 +2,487 @@
     --primary_red: #AA0707;
     --secondary_red: #E00A24;
     --secondary_purple: #4F0832;
-    --primary_purple: #28A033;
+    --primary_purple: #280A33;
     --background_purple: #07041E;
     --primary-text: #fff;
 }
 
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
+}
 
-body{
+section{
+    padding: 100px;
+}
 
-    background-color: var(--background_purple);
+.banner{
+    position: relative;
+    min-height: 100vh;
+    /*background: url(FINDANIMAGE.JPG);*/
+     background-color: var(--background_purple);
+    background-size: cover;
+    background-position: right;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.banner h2{
+    font-size: 3em;
+    color: var(--primary-text);
+    font-weight: 500;
+    line-height 1.5em;
+}
+
+.banner h2 span{
+    font-size: 1.5em;
+    font-weight: 700;
+}
+
+.banner h3 {
+    font-size: 1.5em;
+    color: var(--primary-text);
+    font-weight: 500;
+}
+
+.btn{
+    position: relative;
+    background: var(--primary_red);
+    display: inline-block;
+    color: var(--primary-text);
+    margin-top: 20px;
+    padding: 10px 30px;
+    font-size: 18px;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 2px;
+    font-weight: 500;
+}
+
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 40px 100px;
+    z-index: 1000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: 0.5s;
+
+}
+
+header.sticky{
+    background-color: #fff;
+    padding: 40px 100px;
+    box-shadow: 0 5px 20px rgb(0,0,0,0.1);
+
+
+}
+
+header .logo{
+    color: var(--primary-text);
+    font-size: 24px;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: 700;
+    letter-spacing: 2px;
+
+}
+/* WILL EDIT LOGO ON SCROLL */
+header.sticky .logo{
+    color: #111;
+}
+
+header ul{
+    position: relative;
+    display: flex;
+
+}
+
+header ul li{
+    position: relative; 
+    list-style: none;
+}
+
+header ul li a{
+    position: relative; 
+    display: inline-block;
+    margin: 0 15px;
+    color:  var(--primary-text);
+    text-decoration: none;
+
+}
+header.sticky ul li a{
+    color: #111;
+}
+.heading{
+    width: 100%;
+    text-align: center;
+    margin-bottom: 30px;
+    color: #111;
+
+}
+
+.heading h2{
+    font-weight: 600;
+    font-size: 30px;
+
+}
+
+.content{
+    display: flex;
+    justify-content: space-between;
+
+}
+.contentBx{
+    padding-right: 30px;
+}
+.contentBx h3{
+    font-size: 24px;
+    margin-bottom: 10px;
+
+}
+
+.w50{
+    min-width: 50%;
+
+}
+
+img{
+    max-width 100%;
+
+}
+
+
+
+.projects{
+    background: var(--background_purple);
+
+}
+
+
+.heading.white{
+    color: var(--primary-text);
+}
+
+.projects .content{
+
+    display: flex;
+    justify-content:center;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.projects .content .projectsbx{
+    padding: 40px 20px;
+    background: #222;
+    color: var(--primary-text);
+    max-width: 340px;
+    margin:20px;
+    text-align:center;
+    transition: 0.5s;
+}
+.projects .content .projectsbx:hover{
+    background: var(--primary_red);
+}
+
+.projects .content .projectsbx img{
+    max-width: 80px;
+/*
+inverts the image directly
+    filter:invert(1);*/
+}
+
+.projects .content .projectsbx h2{
+    font-size: 20px;
+}
+
+
+.experience .content{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.experience .content .experiencebx{
+    width: 50%;
+    padding: 20px;
+
+}
+
+.experience .content .experiencebx img{
+    max-width: 100%;
+}
+
+.skills{
+    background: var(--background_purple);
+
+}
+.skills .content{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.skills .content .skillsbx{
+    max-width: calc(50% - 40px);
+    min-width: 75%;
+    padding: 60px 40px;
+    margin: 20px;
+    background: var(--primary_red);
+
+}
+
+.skills .content .skillsbx p{
+    color: var(--primary-text);
+    font-style: italic;
+    font-size: 16px;
+    font-weight: 300;
+
+}
+
+
+
+
+
+.contact{}
+
+.formbx{
+    min-width: 60%;
+
+}
+.formbx form{
+    display: flex;
+    flex-direction: column;
+
+}
+.formbx form h3,
+.contactInfo h3{
+    color: var(--background_purple);
+    font-size: 20px;
+    font-weight 500;
+    margin-bottom 10px;
+}
+
+.formbx form input,
+.formbx form textarea{
+    margin-bottom: 20px;
+    padding: 15px;
+    font-size: 16px;
+    background: transparent;
+    outline: none;
+    border:none;
+    background: #222;
+    color: var(--primary-text);
+    resize: none;
+
+}
+
+.formbx form textarea{
+    min-height: 200px;
+
+}
+
+
+.formbx form input::placeholder,
+.formbx form textarea::placeholder{
+    color: #999;
+}
+
+.formbx form input[type="submit"]{
+    max-width: 100px;
+    background: var(--primary_red);
+    cursor: pointer;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.contactInfo{
+    min-width: 40%;
+}
+
+.contactInfoBx{
+    position: relative;
+}
+
+.contactInfoBx .box{
+    position: relative;
+    padding: 20px 0;
+    display: flex;
+}
+
+.contactInfoBx .box .icon{
+min-width: 40px;
+padding-top: 4px;
+color: var(--primary-text);
+display:flex;
+justify-content:center;
+align-items: center;
+font-size: 24px;
+}
+
+.contactInfoBx .box .text{
+    display: flex;
+    margin-left: 20px;
+    font-size: 16px;
+    color: var(background_purple);
+    flex-direction: column;
+    font-weight: 300;
+}
+
+.contactInfoBx .box .text h3{
+    color: var(--primary_red);
+    font-weight: 500;
+    margin-bottom: 0;
+}
+
+.copyright{
+    background: var(--background_purple);
+    color: var(--primary-text);
+    text-align:center;
+    padding: 10px;
+
+}
+
+
+@media (max-width: 991px)
+{
+    header, header.sticky{
+        padding: 20px 50px;
+        z-index: 1000;
+    }
+    .menu{
+        position: fixed;
+        top: 75px;
+        left: -100%;
+        display: block;
+        padding: 100px 50px;
+        text-align: center;
+        width: 100%;
+        height: 100vh;
+        background: #fff;
+        transition: 0.5s;
+        z-index: 999;
+        border-top: 1px solid rgba(0,0,0,0.2);
+    }
+
+    .menu.active{
+            left: 0;
+    }
+
+    header ul li a{
+    
+        color: var(--background_purple);
+        font-size: 24px;
+        padding:10px;
+
+    }
+
+    .toggle{
+        width: 40px;
+        height: 40px;
+        background-image: url(../images/Hamburger_icon.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 30px;
+        cursor: pointer;
+        filter: invert(1);
+    }
+
+    .toggle.active{
+        background-image: url(../images/close.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 30px;
+        cursor: pointer;
+    }
+    header.sticky .toggle{
+        filter: invert(0);
+    } 
+
+    section{
+        padding: 100px 50px;
+
+    }
+    .banner{
+        padding: 150px 50px 100px;
+    }
+
+    .banner h2{
+        font-size: 1.5em;
+
+    }
+    .banner h3{
+        font-size: 1em;
+    }
+
+    .btn{
+        margin-top:10px;
+        padding: 10px 20px; 
+        font-size: 16px;
+
+    }
+
+    .contentbx h3{
+        font-size: 20px;
+    }
+
+    .content{
+        flex-direction: column;
+    }
+
+    .w50{
+        margin-bottom: 20px;
+    }
+
+    .projects .content .projectsbx{
+        margin: 10px;
+    }
+
+
+    .experience .content .experiencebx{
+        width: 100%;
+        padding: 10000px;
+    }
+
+    .skills .content .skillsbx{
+        max-width: calc(75%-20px);
+        min-width: 50%
+        padding: 40px 20px;
+        margin: 10px;
+        background: var(--primary_red);
+    }
+
+    .skills .content .skillsbx h3{
+        margin-top: 20px;
+
+    }
+
+    .contactInfo{
+        margin: 20px 0;
+    }
+    
+}
+
+@media (max-width: 600px){
+
+    header, header.sticky{
+        padding: 20px 20px;
+        z-index: 1000;
+    }
+
+    banner{
+        padding: 150px 50px 100px;
+    }
+
+    section{
+        padding: 100px 20px;
+    }
+
 }
