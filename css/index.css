@@ -63,6 +63,10 @@ section{
     font-weight: 500;
 }
 
+
+
+
+
 header{
     position: fixed;
     top: 0;
@@ -118,9 +122,63 @@ header ul li a{
     text-decoration: none;
 
 }
-header.sticky ul li a{
+header.sticky ul li a, header.sticky .ext{
     color: #111;
 }
+
+
+
+
+button.resume_button{
+    position: relative;
+    background: var(--primary_red);
+    display: inline-block;
+    color: var(--primary-text);
+    padding: 10px 10px;
+    font-size: 18px;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 2px;
+    font-weight: 500;
+    bottom: 15px;
+    border: 1px solid transparent;
+}
+
+button.ext{
+    display: inline-block;
+    padding: 10px 10px 10px 15px;
+    background: none;
+    position: relative;
+    color: var(--primary-text);
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 2px;
+    font-weight: 500;
+    bottom: 15px;
+    border: 1px solid transparent;
+    font-size: 30px;
+
+}
+
+
+
+
+.resume_button:hover{
+
+    cursor: pointer;
+
+}
+
+button.ext:hover{
+
+    background: var(--primary_red);
+    cursor:pointer;
+    color: var(--primary-text);
+    
+}
+
+
+
 .heading{
     width: 100%;
     text-align: center;
@@ -214,6 +272,7 @@ inverts the image directly
     width: 50%;
     padding: 20px;
 
+
 }
 
 .experience .content .experiencebx img{
@@ -246,9 +305,6 @@ inverts the image directly
     font-weight: 300;
 
 }
-
-
-
 
 
 .contact{}
@@ -376,13 +432,16 @@ font-size: 24px;
             left: 0;
     }
 
-    header ul li a{
+    header ul li a, button.ext{
     
         color: var(--background_purple);
         font-size: 24px;
         padding:10px;
 
     }
+
+
+
 
     .toggle{
         width: 40px;
@@ -421,14 +480,24 @@ font-size: 24px;
     .banner h3{
         font-size: 1em;
     }
+    .resume_button{
+        bottom: 0;
+        top: 4px;
 
+    }
+.special{
+    margin-top: 20px;
+}
+    
+
+
+    
     .btn{
         margin-top:10px;
         padding: 10px 20px; 
         font-size: 16px;
 
     }
-
     .contentbx h3{
         font-size: 20px;
     }
