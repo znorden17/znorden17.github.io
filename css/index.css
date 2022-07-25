@@ -134,7 +134,7 @@ button.resume_button{
     background: var(--primary_red);
     display: inline-block;
     color: var(--primary-text);
-    padding: 0px 10px;
+    padding: 0px 10px 0px 10px; 
     font-size: 18px;
     text-transform: uppercase;
     text-decoration: none;
@@ -146,7 +146,6 @@ button.resume_button{
 
 button.ext{
     display: inline-block;
-    padding: 0px 0px 0px 15px;
     background: none;
     position: relative;
     color: var(--primary-text);
@@ -157,8 +156,11 @@ button.ext{
     bottom: 15px;
     border: 1px solid transparent;
     font-size: 30px;
+    padding: 0px 10px 0px 15px;
+
 
 }
+
 
 
 
@@ -487,6 +489,7 @@ font-size: 24px;
     }
 .special{
     margin-top: 20px;
+
 }
     
 
